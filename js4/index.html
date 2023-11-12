@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Estrutura de #</title>
+</head>
+<body>
+    <script>
+     
+        function criarEstrutura() {
+            
+            const caractere = "#";
+            
+            const linhas = 4;
+            const colunas = 5;
+
+            
+            let estrutura = "";
+
+         
+            for (let i = 0; i < linhas; i++) {
+                let linha = "";
+                for (let j = 0; j < colunas; j++) {
+                    linha += caractere;
+                }
+                estrutura += linha + "\n"; 
+            }
+
+           
+            alert(estrutura);
+        }
+
+        
+        criarEstrutura();
+    </script>
+</body>
+</html>
